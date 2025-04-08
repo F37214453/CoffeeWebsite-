@@ -1,0 +1,93 @@
+#wrapper {
+    width: 80%; /* Width of the wrapper */
+    margin-right: auto; /* Centering */
+    margin-left: auto; /* Centering */
+    background-color: #FEF6C2; /* Background color */
+    min-width: 900px; /* Minimum width */
+    max-width: 1280px; /* Maximum width */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5); /* Drop-shadow effect */
+}
+body {
+    background-color: #FCEBB6; /* Background color */
+    color: #221811; /* Text color */
+    font-family: Verdana, Arial, sans-serif; /* Font family */
+    background-image: url('background.gif');
+}
+
+header {
+    background-color: #D2B48C; /* Header background color */
+    height: 150px; /* Set height */
+    background-image: url('javajamlogo.jpg'); /* Background image */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+
+h1 {
+    line-height: 200%; /* Line height for h1 */
+    padding-top: 45px; /* Top padding */
+    padding-left: 220px; /* Left padding */
+    font-size: 3em; /* Font size */
+}
+
+h4 {
+    background-color: #D2B48C; /* Background color */
+    font-size: 1.2em; /* Font size */
+    padding-left: 10px; /* Left padding */
+    padding-bottom: 5px; /* Bottom padding */
+}
+
+img {
+    padding-left: 10px; /* Left padding */
+    padding-right: 10px; /* Right padding */
+}
+
+main {
+    padding: 2em 0; /* Padding for top and bottom */
+    display: block; /* Prevent rendering issues */
+}
+
+nav {
+    text-align: center; /* Centered text for navigation */
+    font-weight: bold; /* Bold text for navigation */
+    font-size: 1.5em; /* Font size */
+    padding-top: 10px; /* Top padding */
+}
+nav a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+.details {
+    padding: 0 20%; /* Left and right padding */
+}
+
+footer {
+    background-color: #D2B48C; /* Footer background color */
+    font-size: .60em; /* Small font size */
+    font-style: italic; /* Italics for footer */
+    text-align: center; /* Centered text for footer */
+    padding-bottom: 10px; /* Bottom padding */
+    border-top: 2px solid #221811; /* Top border */
+}
+form {
+       padding: 2em; /* Set padding for the form */
+}
+
+label {
+       float: left; /* Float to the left */
+       display: block; /* Block display */
+       text-align: right; /* Right aligned text */
+       width: 8em; /* Set width */
+       padding-right: 1em; /* Right padding */
+}
+   
+input,textarea {
+       display: block; /* Block display */
+       margin-bottom: 1em; /* Bottom margin */
+}
+
+#mySubmit {
+       margin-left: 9.5em; /* Left margin */
+}
+
+
+
+
